@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <!-- Animate Style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- CSS LINK -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Nerko+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <!--AOS Scroll animation cdn link -->
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div  id="container">
+        <!-- Navigation -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/omkar.jpg" alt="NO image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"> <a class="links" href="#home">Home</a></li>
+                <li class="list-items"> <a class="links" href="#about">About</a></li>
+                <li class="list-items"> <a class="links" href="#skills">Skills</a></li>
+                <li class="list-items"> <a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+         <section id="home">
+            <div data-aos="fade-right" class="homeContent">
+                <h1 class="animate__animated animate__bounce" id="username"> Im Omkar <span id="lname">Nath</span></h1><br>
+                <p id="userdetails">Hey this is my personal portfolio website welcome everyone <br>Also im a former kerala champion,national-level sprinter in 100m</p>
+                <a id="download" href="./aswinCV.cv.pdf" download>Download CV</a>
+            </div>
+            <div class="homeImage">
+                <img id="shape" class="grp1" src="./images/shape.png" alt="">
+                <img id="girl" class="grp1" src="./images/girl.png" alt="">
+            </div>
+            
+         </section>
+        <!-- about -->
+         <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div data-aos="fade-right" class="aboutBody">
+                <div class="aboutImage">
+                    <img class="img1" src="./images/png-clipart-about-me-learning-others-miscellaneous-blue.png" alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p id="aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptate sapiente voluptatum officia, laudantium ab atque rerum hic fugiat recusandae dolorem at eligendi, cum consectetur voluptatem aspernatur aliquid quidem quis?</p>
+                    <div class="Information">
+                        <div class="InfoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>OmkarNath</span>
+                        </div>
+                        <div class="InfoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>95267195952</span>
+                        </div>
+                        <div class="InfoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>aswin@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+         </section>
+
+        <!-- skills -->
+         <section id="skills">
+            <div class="skillsheading">
+                <h2 class="headingSkills">Skills</h2>
+                <span id="myskills">My skills</span>
+            </div>
+
+
+            <div class="skillContent">
+                <div class="progressBar">
+                    <div class="Bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">89%</span>
+                        <div class="baseBar"></div>
+                        <div class="basebar-htmlbar"></div>
+                    </div>
+                    <div class="Bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">70%</span>
+                        <div class="baseBar"></div>
+                        <div class="basebar-cssbar"></div>
+                    </div>
+                    <div class="Bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">99%</span>
+                        <div class="baseBar"></div>
+                        <div class="basebar-jsbar"></div>
+                    </div>
+                    <div class="Bars">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercent">100%</span>
+                        <div class="baseBar"></div>
+                        <div class="basebar-reactbar"></div>
+                    </div>
+
+                </div>
+                <div class="skillImage">
+                    <img class="myskills" src="./images/skills-concept-education-training-improvement-people-get-knowledge-build-career-illustration_277904-4760.avif" alt="">
+                </div>
+            </div>
+         </section>
+        <!-- contact -->
+
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contacts</h2>
+                <span id="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollection">
+                <!-- Instagram -->
+                 <div class="icons">
+                    <a class="color" href="https://www.linkedin.com/in/aswin-shiju-b5a369238/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+                 <!-- Twitter -->
+                 <div class="icons">
+                    <a class="color" href="https://www.linkedin.com/in/aswin-shiju-b5a369238/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+
+                  <!-- Facebook -->
+                  <div class="icons">
+                    <a class="color" href="https://www.linkedin.com/in/aswin-shiju-b5a369238/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                 </div>
+            </div>
+        </section>
+        <!-- footer -->
+         <footer>
+            <p id="copyright">&copy;My portfolio website2024 - 2066  &reg; Omkar Nath</p>
+           <div class="up-arrow">
+             <a  href="#container" ><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+
+         </footer>
+    </div>
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
